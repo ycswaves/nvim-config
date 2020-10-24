@@ -1,0 +1,12 @@
+{
+    "coc.preferences.formatOnSaveFiletypes": ["javascript", "elixir", "svelte"],
+    "explorer.keyMappings": {
+        "<cr>": ["expandable?", "expand", "open"],
+        "v": "open:vsplit"
+    },
+    "explorer.position": "floating",
+    "explorer.icon.enableNerdfont": true,
+    "tsserver.log": "verbose",
+    "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
+    "prettier.printWidth": 120
+}
