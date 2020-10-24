@@ -55,6 +55,8 @@ Plug 'norcalli/nvim-colorizer.lua'
 Plug 'mhinz/vim-startify'
 Plug 'junegunn/limelight.vim'
 Plug 'TaDaa/vimade'
+Plug 'gcmt/wildfire.vim'
+Plug 'MattesGroeger/vim-bookmarks'
 Plug 'heavenshell/vim-jsdoc', { 
   \ 'for': ['javascript', 'javascript.jsx','typescript'], 
   \ 'do': 'make install'
@@ -249,8 +251,6 @@ else
   let g:indentLine_concealcursor = 0
   let g:indentLine_char = '┆'
   let g:indentLine_faster = 1
-
-  
 endif
 
 
