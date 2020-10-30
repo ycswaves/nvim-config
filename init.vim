@@ -55,7 +55,6 @@ Plug 'norcalli/nvim-colorizer.lua'
 Plug 'mhinz/vim-startify'
 Plug 'junegunn/limelight.vim'
 Plug 'TaDaa/vimade'
-Plug 'gcmt/wildfire.vim'
 Plug 'MattesGroeger/vim-bookmarks'
 Plug 'heavenshell/vim-jsdoc', { 
   \ 'for': ['javascript', 'javascript.jsx','typescript'], 
@@ -660,3 +659,4 @@ map <Leader>vl :VimuxRunLastCommand<CR>
 
 nmap <Leader>ll :Limelight!!<CR>
 let g:vimade = { "fadelevel": 0.75 }
+map <leader>bo :%bd\|e#\|bd#<cr>
