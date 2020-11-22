@@ -53,6 +53,8 @@ Plug 'justinmk/vim-sneak'
 Plug 'benmills/vimux'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'mhinz/vim-startify'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 Plug 'junegunn/limelight.vim'
 Plug 'TaDaa/vimade'
 Plug 'MattesGroeger/vim-bookmarks'
@@ -210,6 +212,7 @@ set expandtab                           " Converts tabs to spaces
 set smartindent                         " Makes indenting smart
 set autoindent
 set mouse=a
+set foldlevel=99                        " unfold all codes by default
 
 let no_buffers_menu=1
 " silent! colorscheme molokai
