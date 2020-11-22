@@ -1,5 +1,5 @@
 {
-    "coc.preferences.formatOnSaveFiletypes": ["javascript", "elixir", "svelte", "css"],
+    "coc.preferences.formatOnSaveFiletypes": ["javascript", "elixir", "svelte", "css", "ruby"],
     "explorer.keyMappings.global": {
         "<cr>": ["expandable?", "expand", "open"],
         "v": "open:vsplit"
