@@ -663,3 +663,7 @@ map <Leader>vl :VimuxRunLastCommand<CR>
 nmap <Leader>ll :Limelight!!<CR>
 let g:vimade = { "fadelevel": 0.75 }
 map <leader>bo :%bd\|e#\|bd#<cr>
+
+" Any-jump window size & position options
+let g:any_jump_window_width_ratio  = 0.8
+let g:any_jump_window_height_ratio = 0.8
