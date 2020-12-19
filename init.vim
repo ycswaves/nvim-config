@@ -142,6 +142,33 @@ call plug#end()
 " Required:
 filetype plugin indent on
 
+let g:coc_global_extensions = [
+  \'coc-actions',
+  \'coc-css',
+  \'coc-cssmodules',
+  \'coc-elixir',
+  \'coc-emmet',
+  \'coc-emoji',
+  \'coc-eslint',
+  \'coc-explorer',
+  \'coc-floaterm',
+  \'coc-html',
+  \'coc-json',
+  \'coc-lists',
+  \'coc-marketplace',
+  \'coc-pairs',
+  \'coc-prettier',
+  \'coc-snippets',
+  \'coc-svelte',
+  \'coc-svg',
+  \'coc-tsserver',
+  \'coc-vetur',
+  \'coc-vimlsp',
+  \'coc-xml',
+  \'coc-yaml',
+  \'coc-yank'
+\]
+
 
 "*****************************************************************************
 "" Basic Setup
