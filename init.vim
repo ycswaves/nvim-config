@@ -149,15 +149,14 @@ let g:coc_global_extensions = [
   \'coc-elixir',
   \'coc-emmet',
   \'coc-emoji',
-  \'coc-eslint',
   \'coc-explorer',
-  \'coc-floaterm',
   \'coc-html',
   \'coc-json',
   \'coc-lists',
   \'coc-marketplace',
   \'coc-pairs',
   \'coc-prettier',
+  \'coc-python',
   \'coc-snippets',
   \'coc-svelte',
   \'coc-svg',
@@ -690,7 +689,9 @@ map <Leader>vl :VimuxRunLastCommand<CR>
 
 nmap <Leader>ll :Limelight!!<CR>
 let g:vimade = { "fadelevel": 0.75 }
-map <leader>bo :%bd\|e#\|bd#<cr>
+map <Leader>bo :%bd\|e#\|bd#<CR>
+
+map <Leader>gws :Git<CR>
 
 " Any-jump window size & position options
 let g:any_jump_window_width_ratio  = 0.8
